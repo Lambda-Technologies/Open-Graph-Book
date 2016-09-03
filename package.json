@@ -1,0 +1,27 @@
+{
+  "name": "open-graph-book",
+  "version": "0.1.0",
+  "description": "An open source logical way to keep context with infromation.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LamdaTech/Open-Graph-Book.git"
+  },
+  "keywords": [
+    "Note",
+    "Note-Taking",
+    "Graph",
+    "Open",
+    "Open-Source",
+    "Free"
+  ],
+  "author": "Brian Ludwig, Dustyn Tubbs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LamdaTech/Open-Graph-Book/issues"
+  },
+  "homepage": "https://github.com/LamdaTech/Open-Graph-Book#readme"
+}
