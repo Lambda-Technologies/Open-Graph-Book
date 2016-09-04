@@ -4,7 +4,8 @@
   "description": "An open source logical way to keep context with information.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/jasmine-node test",
+    "karma": "./node_modules/.bin/karma start"
   },
   "repository": {
     "type": "git",
@@ -34,5 +35,9 @@
     "karma-jasmine": "^1.0.2",
     "karma-phantomjs-launcher": "^1.0.2",
     "koa": "^1.2.2"
+  },
+  "dependencies": {
+    "jasmine-node": "^1.14.5",
+    "request": "^2.74.0"
   }
 }
