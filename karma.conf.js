@@ -10,13 +10,14 @@ module.exports = function(config) {
 
     // frameworks to use
     // available frameworks: https://npmjs.org/browse/keyword/karma-adapter
-    frameworks: ['jasmine'],
+    frameworks: ['mocha','chai'],
 
 
     // list of files / patterns to load in the browser
+    //http://karma-runner.github.io/1.0/config/files.html
     files: [
-      'src',
-      'test'
+      'src/**/*.js',
+      'test/**/*[sS]spec.js'
     ],
 
 
