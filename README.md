@@ -20,7 +20,6 @@ Databases:
 Testing/CI:
   * Mocha
   * Chai
-  * Karma
   * TravisCI'
   * Nightwatch'
 
@@ -31,5 +30,4 @@ Package Management:
 MISC:
   * Linting: eslint
   * Transpiling: babel'
-  * Budling: webpack'
 
