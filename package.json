@@ -4,7 +4,7 @@
   "description": "An open source logical way to keep context with information.",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/mocha ./test/**/*[sS]pec.js || true",
+    "test": "./node_modules/.bin/mocha ./test/**/*[sS]pec.js || true"
   },
   "repository": {
     "type": "git",
@@ -35,6 +35,8 @@
     "mocha": "^3.0.2"
   },
   "dependencies": {
+    "react": "^15.0.0",
+    "react-router": "^2.8.1",
     "request": "^2.74.0"
   }
 }
