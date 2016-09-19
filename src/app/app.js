@@ -1,11 +1,10 @@
 var koa = require('koa');
 var app = koa();
+var router = require('./routes');
 
-console.log("Koa listening on localhost:3000")
 
-app.use(function *(){
-  this.body = 'Hello World';
-});
+app.use(router.routes());
+app.use(router.allowedMethods());
 
-app.listen(3000);
 
+module.exports = app;
