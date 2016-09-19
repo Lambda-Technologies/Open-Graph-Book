@@ -7,7 +7,6 @@
 6. If appropriate, write corresponding behavior tests that we should expect from the browser.
 7. Write enough code to make those tests pass. (we will not accept requests that make our testing suite cry)
 8. Spend a reasonable amount of time to think about your solution and refactor it.
-9. Lint your solution and make sure the linter doesn't complain (we will not accept requests that make the linter cry)
-10. When the feature/bugfix/other is finished, rebase the branch off of the releases current master and submit a pull request.
+9. When the feature/bugfix/other is finished, rebase the branch off of the releases current master and submit a pull request.
   * Communication will take place on the request itself.
-11. Have a beer!
+10. Have a beer!

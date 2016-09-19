@@ -11,7 +11,7 @@ Front End:
   * sass
 
 Back End:
-  * Koa
+  * Koa 
 
 Databases:
   * Neo4j
@@ -26,8 +26,4 @@ Testing/CI:
 Package Management:
   * npm 
   * bower'
-
-MISC:
-  * Linting: eslint
-  * Transpiling: babel'
 
