@@ -1,4 +1,7 @@
 ## So, you want to help build this tool?
+
+The below will be the process when this is actually up and running :)
+---
 1. Clone this project
 2. Branch off of the releases master branch. If a branch doesn't already exist for that goal, feel free to make one Features, Bugfixes, or other changes need to exist as their own branch. E.g. `feature-ExportBook`
 
