@@ -11,7 +11,7 @@ Front End:
   * sass
 
 Back End:
-  * Koa
+  * Express
 
 Databases:
   * Neo4j
