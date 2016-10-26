@@ -1,11 +1,10 @@
-var koa = require('koa');
-var app = koa();
+var express = require('express');
+var app = express();
 
-console.log("Koa listening on localhost:3000")
-
-app.use(function *(){
-  this.body = 'Hello World';
+app.get('/', function (req, res) {
+  res.send('Hello World!');
 });
 
-app.listen(3000);
-
+app.listen(3000, function () {
+  console.log('Example app listening on port 3000!');
+});
